@@ -1,9 +1,16 @@
 const ages = [12, 14, 16, 13, 17];
-const ages2 = [15, 16, 12];
-const ages3 = [25, 26, 22];
-const allAges  = ages.concat(ages2).concat([5]).concat(ages3);
-const allAges2 = [...ages, ...ages2, 5, ...ages3];
-// console.log(allAges2);
+const year = [15, 16, 12];
+const allAges1 = ages.concat(year);
+console.log(allAges1);
+
+
+const roll = [12, 14, 16, 13, 17];
+const date = [15, 16, 12];
+const ages1 = [25, 26, 22];
+// const allAges  = roll.concat(date).concat([5]).concat(ages1);
+const allAges2 = [...roll, ...date, 5, ...ages1];
+console.log(allAges2);
+
 
 const business = 650;
 const minister = 450;

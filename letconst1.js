@@ -1,11 +1,11 @@
 const hubby = "Elias Kanchon";
-//  err hubby = "Nizam";
+//  error hubby = "Nizam";
 console.log(hubby);
 
 const numbers = [12, 45];
+// error numbers = ["rakib", "sakib", "jakir"];
 numbers[1] = 88;
 numbers.push(12);
-// err numbers = ["rakib", "sakib", "jakir"];
 const nayok = {name:"sakb khan", phone:54545};
 // console.log(numbers);
 
@@ -17,4 +17,4 @@ for (let i = 0; i < 10; i++) {
     sum = sum + i;
     
 }
-console.log(i);
+// error console.log(i);

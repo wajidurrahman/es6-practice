@@ -1,3 +1,13 @@
+class Goat{
+    constructor(name){
+        this.name = name;
+    }
+}
+const goatBaby = new Goat("Pagol");
+console.log(goatBaby);
+
+
+// step2...
 class Parent {
     constructor(){
         this.fatherName = "SchwerZnegger"
